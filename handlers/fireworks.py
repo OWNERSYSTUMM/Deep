@@ -1,5 +1,4 @@
 import asyncio
-from utils import type_text
 from pyrogram import filters
 
 from bot import app
@@ -21,7 +20,7 @@ async def fireworks(client, callback_query):
         await msg.edit_text(frame)
         await asyncio.sleep(1)
 
-    await msg.type_text(
+    await msg.edit_text(
         """
 👑 ᴅᴇᴇᴘ ʏᴀᴅᴀᴠ 👑
 
