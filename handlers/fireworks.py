@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import filters
 
-from vikky import app
+from bot import app
 
 @app.on_callback_query(filters.regex("^fireworks$"))
 async def fireworks(client, callback_query):
