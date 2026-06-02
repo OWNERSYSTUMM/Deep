@@ -1,4 +1,3 @@
-print("birthday.py loaded")
 from pyrogram import filters
 from pyrogram.types import (
     InlineKeyboardMarkup,
@@ -8,8 +7,6 @@ from bot import app
 
 @app.on_message(filters.command("birthday"))
 async def birthday_start(client, message):
-    print("Birthday command received")
-    await message.reply_text("Bot Working")
 
     keyboard = InlineKeyboardMarkup(
         [[
