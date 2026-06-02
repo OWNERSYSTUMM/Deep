@@ -57,9 +57,6 @@ Deep/
 git clone https://github.com/OWNERSYSTUMM/Deep && cd Deep
 ```
 ```bash
-cd birthday-bot
-```
-```bash
 pip install -r requirements.txt
 ```
 ```
