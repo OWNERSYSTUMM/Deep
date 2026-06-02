@@ -1,4 +1,5 @@
 import asyncio
+from utils import type_text
 from pyrogram import filters
 
 from bot import app
