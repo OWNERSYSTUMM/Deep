@@ -6,7 +6,7 @@ from pyrogram.types import (
     InlineKeyboardButton
 )
 
-from main import app
+from vikky import app
 from config import DEEP_ID
 
 @app.on_callback_query(filters.regex("^cake$"))
