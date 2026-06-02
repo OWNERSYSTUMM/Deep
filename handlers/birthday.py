@@ -17,7 +17,7 @@ async def birthday_start(client, message):
         ]]
     )
 
-    await message.reply_text(
+    await message.type_text(
         """
 🎬 ʙɪʀᴛʜᴅᴀʏ ᴇᴠᴇɴᴛ
 
