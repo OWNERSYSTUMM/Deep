@@ -1,3 +1,4 @@
+print("birthday.py loaded")
 from pyrogram import filters
 from pyrogram.types import (
     InlineKeyboardMarkup,
