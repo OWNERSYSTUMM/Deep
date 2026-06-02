@@ -1,3 +1,4 @@
+from utils import type_text
 from pyrogram import filters
 from pyrogram.types import (
     InlineKeyboardMarkup,
