@@ -7,6 +7,7 @@ from vikky import app
 
 @app.on_message(filters.command("birthday"))
 async def birthday_start(client, message):
+    print("Birthday command received")
 
     keyboard = InlineKeyboardMarkup(
         [[
