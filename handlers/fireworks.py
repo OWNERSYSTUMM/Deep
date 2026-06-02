@@ -20,7 +20,7 @@ async def fireworks(client, callback_query):
         await msg.edit_text(frame)
         await asyncio.sleep(1)
 
-    await msg.edit_text(
+    await msg.type_text(
         """
 👑 ᴅᴇᴇᴘ ʏᴀᴅᴀᴠ 👑
 
