@@ -1,10 +1,10 @@
 import asyncio
 
-async def type_text(msg, text, delay=0.03):
+async def type_text(msg, text, delay=0.04):
     current = ""
 
-    for ch in text:
-        current += ch
+    for char in text:
+        current += char
 
         try:
             await msg.edit_text(current)
