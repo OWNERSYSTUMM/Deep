@@ -4,7 +4,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     InlineKeyboardButton
 )
-from vikky import app
+from bot import app
 
 @app.on_message(filters.command("birthday"))
 async def birthday_start(client, message):
