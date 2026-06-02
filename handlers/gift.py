@@ -6,7 +6,7 @@ from pyrogram.types import (
     InlineKeyboardButton
 )
 
-from main import app
+from vikky import app
 
 @app.on_callback_query(filters.regex("^gift$"))
 async def gift_open(client, callback_query):
