@@ -9,7 +9,7 @@ from vikky import app
 @app.on_message(filters.command("birthday"))
 async def birthday_start(client, message):
     print("Birthday command received")
-    await massege.reply_text("Bot Working")
+    await message.reply_text("Bot Working")
 
     keyboard = InlineKeyboardMarkup(
         [[
